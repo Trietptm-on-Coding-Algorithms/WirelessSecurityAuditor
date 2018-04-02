@@ -1,6 +1,6 @@
 # WirelessSecurityAuditor
 
-Description: Uses the network hardware and tools mentioned below to output the SSID (name) and BSSID (hardware address) of every local wireless access point, the MAC (hardware address) and network card vendor for every local wireless device, and show which devices are connected to which wireless access points.
+Uses the network hardware and tools mentioned below to output the SSID (name) and BSSID (hardware address) of every local wireless access point, the MAC (hardware address) and network card vendor for every local wireless device, and show which devices are connected to which wireless access points.
 
 # Tools and Credit:
 - This tool integrates Jeff Bryner's script (name shortened to "APCAP.py"): https://github.com/jeffbryner/kinectasploitv2/blob/master/blenderhelper/scripts/APNameFromPcap.py
