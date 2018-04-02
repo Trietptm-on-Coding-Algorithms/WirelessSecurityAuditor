@@ -3,7 +3,7 @@
 Description: Uses the network hardware and tools mentioned below to output the SSID (name) and BSSID (hardware address) of every local wireless access point, the MAC (hardware address) and network card vendor for every local wireless device, and show which devices are connected to which wireless access points.
 
 # Tools and Credit:
-- This tool integrates Jeff Bryner's script: https://github.com/jeffbryner/kinectasploitv2/blob/master/blenderhelper/scripts/APNameFromPcap.py
+- This tool integrates Jeff Bryner's script (name shortened to "APCAP.py"): https://github.com/jeffbryner/kinectasploitv2/blob/master/blenderhelper/scripts/APNameFromPcap.py
  - This tool integrates the MACvendors.com API: https://macvendors.com/api
  - This tool integrates the Aircrack-ng Suite:https://macvendors.com/api
 
@@ -14,7 +14,9 @@ Description: Uses the network hardware and tools mentioned below to output the S
 
 # Installation
 1. Install git ("sudo apt-get install git" for debian based systems)
-2. Git 
+2. Download the repository by running "git clone https://github.com/BadAtScripting/WirelessSecurityAuditor.git'
+3. Navigate to the folder with "cd WirelessSecurityAuditor"
 
 # Use
-1. Connect
+1. Connect the Atheros network card to your machine. Make sure it's properly connected using wlan0 by running "iwconfig"
+2. Run the auditor using "bash WirelessAuditor.sh". The output will be directed to the terminal unless it is piped to a file with "> [output file name]"
